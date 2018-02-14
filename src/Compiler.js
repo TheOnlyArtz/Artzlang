@@ -2,13 +2,15 @@ const {readFileSync, read} = require('fs');
 const {
   dec,
   func,
-  parentTheses
+  parentTheses,
+  kick
 } = require('./Parsers');
 
 const modify = function(str) {
   str = dec(str);
   str = parentTheses(str);
   str = func(str);
+  str = kick(str);
   
   return str
 }
