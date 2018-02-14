@@ -1,0 +1,7 @@
+dec test = "Test";
+
+func dec<> {
+  return "hello";
+}
+
+dec anotherVar = "test";
