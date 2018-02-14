@@ -6,7 +6,7 @@ function compile (str) {
   let toStringArr = [];
   
   arr.forEach(c => {
-    if (c.match(/func\s(?:[A-z]*)\<\>(\{|\s\{)/g))  {
+    if (c.match(/func\s(?:[A-z]*)(\s|)(\<\>|\<[^]*)(\{|\s\{)/g))  {
         c = c.replace(/\</, '(');
         c = c.replace(/\>/, ')');
       }

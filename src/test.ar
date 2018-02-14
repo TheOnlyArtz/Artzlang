@@ -1,6 +1,6 @@
 dec test = "Test";
 
-func dec<> {
+func dec <param1, param2> {
   return "hello";
 }
 
