@@ -1,4 +1,4 @@
-dec test = "Test";
+dec test = "func dec <param1, param2> {";
 
 func dec <param1, param2> {
   return "hello";
