@@ -1,7 +1,5 @@
-dec test = "func dec <param1, param2> {";
+dec test = "This is a string :D";
 
 func dec <param1, param2> {
   kick "hello";
 }
-
-dec anotherVar = "test";
